@@ -1,0 +1,1 @@
+enum TypeCalender { agenda, history }

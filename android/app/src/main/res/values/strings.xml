@@ -1,0 +1,11 @@
+<resource>
+	<string name="app_name">
+		Caupe Custumer
+	</string>
+	<string name="facebook_app_id">
+		561433388368929
+	</string>
+	<string name="fb_login_protocol_scheme">
+		fb561433388368929
+	</string>
+</resource>

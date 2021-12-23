@@ -1,0 +1,64 @@
+name: caupe_custumer
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.13.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.1.4
+  get_storage: ^2.0.2
+  either_dart: ^0.1.2
+  extended_image: ^4.1.0
+  animations: ^2.0.0
+  table_calendar: ^3.0.0
+  fl_chart: ^0.36.2
+  loading_indicator: ^2.1.1
+  carousel_slider: ^4.0.0
+  adaptive_action_sheet: ^2.0.0
+  bottom_sheet: ^1.0.1
+  brasil_fields: ^1.1.3
+  flux_validator_dart: ^2.0.0
+  pinput: ^1.2.0
+  image_picker: ^0.8.1+3
+  flutter_cupertino_datetime_picker: ^2.0.1
+  shimmer_animation: ^2.1.0+1
+  easy_debounce: ^2.0.0
+  flutter_google_places: ^0.3.0
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  share: ^2.0.4
+  firebase_core: ^1.4.0
+  firebase_auth: ^2.0.0
+  google_sign_in: ^5.0.4
+  flutter_login_facebook: ^1.0.1
+  device_info: ^2.0.2
+  lottie: ^1.1.0
+  cloud_firestore: ^2.4.0
+  firebase_storage: ^10.0.1
+  dio: ^4.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular_0.ttf
+        - asset: assets/fonts/Poppins-Bold_0.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Light_0.ttf
+          weight: 200
